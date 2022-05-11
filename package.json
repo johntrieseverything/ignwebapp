@@ -1,7 +1,7 @@
 {
   "name": "ignwebapp",
   "version": "0.1.0",
-  "homepage": "https://johnnam1121.github.io/johnnam",
+  "homepage": "https://johntrieseverything.github.io/ignwebapp/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
