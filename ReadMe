@@ -1,0 +1,12 @@
+Video player webapp created by John Nam for IGN's Code Foo 10 internship
+
+Features:
+
+1. Checks if user is not restricted by CORS policy (IGN employees?) by using "https://ign-apis.herokuapp.com/videos" and immediately shows webpage. If user is restricted by CORS policy, shows button to redirect to CORS demo page to allow temporary access then uses the url "https://cors-anywhere.herokuapp.com/https://ign-apis.herokuapp.com/videos".
+2. Main video player made using the component "React Player" which comes with controls. 
+3. Main video is shown along with title, description, and tags.
+3. OnEnded handler checks to see if video is done playing. If so, play next video.
+4. OnVideoSelected handler checks if video on suggestions list is clicked. If so, play that specific video.
+5. OnHover makes the suggested videos scale a little for better user interface
+6. Accordion added on bottom of suggested videos list to load more items.
+7. Styling was done using bootstrap
